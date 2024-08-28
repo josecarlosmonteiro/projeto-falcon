@@ -119,8 +119,8 @@ export default function Home() {
             />
 
             <div>
-              <div>Whatsapp: (81)9.9999-9999</div>
-              <div>Email: contato@mail.com</div>
+              <div className="flex items-center gap-2"><Icons.Whatsapp /> (81) 9.9999-9999</div>
+              <div className="flex items-center gap-2"><Icons.Mail /> contato@mail.com</div>
             </div>
           </div>
         </div>
